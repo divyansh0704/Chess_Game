@@ -1,7 +1,8 @@
 # Real-time Multiplayer Chess Game
 
-![Chess Game Screenshot (Placeholder)](https://via.placeholder.com/800x400?text=Chess+Game+Screenshot)
-*(Replace this with an actual screenshot of your application)*
+![Chess Game UI](./images/ui.png)
+
+**Live Demo:** [https://chess-game-a6en.onrender.com/](https://chess-game-a6en.onrender.com/)
 
 ## Table of Contents
 - [About The Project](#about-the-project)
@@ -107,6 +108,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - your_email@example.com
-Project Link: https://github.com/your_username/ChessGame
-*(Replace with your actual contact info and project link)*
+Your Name - sainidivyansh2005@gmail.com
+Project Link: https://github.com/divyansh0704/ChessGame

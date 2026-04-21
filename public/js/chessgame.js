@@ -103,6 +103,13 @@ const getPieceUnicode = (piece) => {
         // b:"♝",
         // q:"♛",
         // k:"♚",
+        w: {
+            p: "♙", r: "♖", n: "♘", b: "♗", q: "♕", k: "♔"
+        },
+        b: {
+            p: "♟", r: "♜", n: "♞", b: "♝", q: "♛", k: "♚"
+        }
+    };
 
         p:"♙",
         r:"♖",
@@ -123,6 +130,7 @@ const getPieceUnicode = (piece) => {
     return unicodePieces[piece.type] || "";
      
 
+    return unicodePieces[piece.color][piece.type] || "";
 }
 
 socket.on("playerRole", (role) => {
